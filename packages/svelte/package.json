@@ -1,0 +1,17 @@
+{
+  "name": "@tanstack-table-ui/svelte",
+  "version": "0.0.1",
+  "main": "./index.tsx",
+  "types": "./index.tsx",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint *.ts*"
+  },
+  "devDependencies": {
+    "eslint": "^8.24.0",
+    "eslint-config-custom": "workspace:*",
+    "tsconfig": "workspace:*",
+    "typescript": "^4.8.4",
+    "svelte": "^3.50.1"
+  }
+}

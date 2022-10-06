@@ -1,2 +1,5 @@
 import * as React from "react";
-export * from "./components/Button";
+
+import { Button } from "./components/Button";
+
+export { Button };

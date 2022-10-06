@@ -1,6 +1,16 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Card from "../components/Card.astro";
+// import { Button as ReactButton } from "@tanstack-table-ui/react";
+import { Button as SveteButton } from "@tanstack-table-ui/svelte";
+import Test from "../components/Test";
 ---
 
-<Layout title="Welcome to Astro." />
+<Layout title="Welcome to Astro.">Hello World</Layout>
+
+<br />
+
+<Test />
+
+<!-- <ReactButton client:load /> -->
+
+<SveteButton client:load />
